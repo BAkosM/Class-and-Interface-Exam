@@ -13,7 +13,8 @@ export class Statue implements Artwork {
         this.price = price;
         this.height = height;
     }
-    getTitle(): string { return this.title; }
+    //Getter Setter try
+    /*getTitle(): string { return this.title; }
     getYear(): number { return this.year; }
     getPrice(): number { return this.price; }
     getHeight(): number { return this.height; }
@@ -47,5 +48,5 @@ export class Statue implements Artwork {
         } else {
            console.log("Hiba a magasságal");
         }
-    }
+    }*/
 }

@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
         } else {
             alert("Hiba a nével(csak A-tól Z-ig space vagy vesző)");
         }
-        
         (document.getElementById("result") as HTMLInputElement).textContent= lista.length +" db mű van a rendszerben az össz áruk pedig: "+ar+"FT";     
     });
 });
